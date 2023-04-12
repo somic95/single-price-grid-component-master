@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    height: auto;
+}
+
+.container  {
+    box-shadow: 0px 0px 10px #b6b6b6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 100%;
+    width: 450px;
+}
+
+.container article:first-child {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2rem 2.5rem;
+}
+
+.container article:first-child h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.container article:first-child h3 {
+    margin-top: 2rem;
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.container article:first-child p {
+    margin-top: 2rem;
+    font-weight: 375px;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.75rem;
+}
+
+.container article:nth-child(2) .col-1 {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0%;
+    color: white;
+    padding: 1rem 2.5rem;
+}
+
+.container article:nth-child(2) .col-1 h3{
+    color: white;
+    margin-top : 1rem;
+}
+
+.container article:nth-child(2) .col-1 div {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.container article:nth-child(2) .col-1 div h1 {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+
+.container article:nth-child(2) .col-1 div span {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+.container article:nth-child(2) .col-1 p {
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.container article:nth-child(2) .col-1 button {
+    border: none;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    font-family: "Karla", sans-serif;
+    box-shadow: 0px 0px 10px #8f8f8f;
+    color: white;
+    font-size: 20px;
+    padding: 1.25rem 0;
+    font-weight: 700;
+}
+
+
+.container article:nth-child(2) .col-2 {
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2rem 2.5rem;
+    background-color: hsl(179, 70%, 46%);
+}
+
+.container article:nth-child(2) .col-2 p {
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+}
+
+
+@media (min-width: 1150px) {
+
+    .container {
+        width: 900px;
+    }
+
+    .container article:nth-child(2) {
+       display: flex;
+       height: 300px;
+    }
+
+    .col-1,.col-2 {
+        width: 50%;
+    }
+
+    .container article:nth-child(2) .col-1 {
+        border-bottom-left-radius: 10px;
+        padding-top: 2rem;
+        padding-bottom: 1.75rem;
+    }
+
+    .container article:nth-child(2) .col-2 {
+        border-bottom-left-radius: 0%;
+        padding-top: 2rem;
+        padding-bottom: 1.75rem;
+    }
+    
+
+
+}
+ 
+
+
+
+
+
